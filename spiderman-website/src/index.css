@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ /* Remove bullets (dots) from unordered list with class "custom-list" */
+ .movie_posters {
+  list-style-type: none; /* Removes the default list-style-type (usually bullets) */
+  padding: 0; /* Optional: Remove default padding for cleaner appearance */
+  margin: 0; /* Optional: Remove default margin for cleaner appearance */
+}
+
+.movie_posters {
+  margin-bottom: 8px; /* Add some spacing between list items */
+
+}
+
+.poster_image{
+   
+  width: 500px;
+   height: 500px;
+}
+
+hr{
+  display: none;
+}
+
+html{
+  background:#5AACD4ff ; 
+}
+
+/* CSS HEX  colour pallete */
+/**
+--space-cadet: #131D43ff;
+--oxford-blue: #0B0D23ff;
+--picton-blue: #5AACD4ff;
+--azure-web: #D9ECF2ff;
+--rose-quartz: #A58A9Fff;
+
+# for id selector
+. for class selector
+
+**/
+
+

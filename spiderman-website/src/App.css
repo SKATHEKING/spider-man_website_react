@@ -1,0 +1,86 @@
+
+ /* Remove bullets (dots) from unordered list with class "custom-list" */
+ .movie_posters {
+  list-style-type: none; /* Removes the default list-style-type (usually bullets) */
+  padding: 0; /* Optional: Remove default padding for cleaner appearance */
+  margin: 0; /* Optional: Remove default margin for cleaner appearance */
+}
+li {
+  list-style-type: none;}  /* Removes the default list-style
+.movie_posters {
+  margin-bottom: 8px; /* Add some spacing between list items */
+
+
+
+.poster_image{
+   
+  width: 500px;
+   height: 500px;
+}
+
+hr{
+  display: none;
+}
+
+html{
+  background:#5AACD4ff ; 
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ 
+
+
+
+
+
+/* CSS HEX  colour pallete */
+/**
+--space-cadet: #131D43ff;
+--oxford-blue: #0B0D23ff;
+--picton-blue: #5AACD4ff;
+--azure-web: #D9ECF2ff;
+--rose-quartz: #A58A9Fff;
+
+# for id selector
+. for class selector
+
+**/
+
